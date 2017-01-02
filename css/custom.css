@@ -1,0 +1,215 @@
+
+body, h1, h2, p{font-family: 'Raleway', sans-serif;}
+.navbar-nav{float: right;}
+.navbar-fixed-top{background-color: rgba(255, 255, 255, 0.95);padding-bottom: 15px;}
+
+.home div img{float: right;}
+.home h1{color: #fff;font-weight: 700;}
+.home h2, .home h4{  background-color: rgba(13, 29, 49, 0.8);
+    color: #f6f7f8;
+    float: left;
+    margin-top: -10px;
+    padding: 15px;
+    width: 50%;}
+.home p{color: #000;}
+.home div h1{width: 50%;
+margin-top: 18%;
+float: left;margin-bottom: 36px;
+}
+.fa{font-size: 26px;color: #fff;background-color: transparent;position: relative;margin-right: 7px;}
+.nav-item a{color: #0d1d31;float: left;padding-top: 10px;}
+.navbar-nav > li > a{padding-bottom: 0;font-size: 16px;}
+.nav > li > a:focus, .nav > li > a:hover{background-color: transparent;}
+.home {padding-top: 6%;}
+#callbackForm{background-color: #dc143c;padding:10px 26px;margin-top: -20px;}
+.form-control{height: 44px;border-radius: 0;}
+#callbackForm h3{color: #fff;margin-bottom: 25px;text-align: center;}
+.checkbox label{color: #fff;margin-bottom: 25px;}
+.form-group button{background-color: #0d1d31;border-radius: 0;color: #fff;width: 40%;left: 30%;position: relative;}
+.nav-item img{width: 36px;margin-right: 14px;}
+.navbar-nav > li > a {
+ padding-top: 36px;}
+#exTab1{position: relative;}
+.tab-pane > div{position: absolute;
+left: 26px;
+width: 355px;
+height: 120px;
+top: 52px;
+background-color: #2594d3;
+padding: 15px;
+color: #000;}
+
+
+#homePage{background-image: url(../images/background-img-slider.jpg);background-repeat: no-repeat;background-size: 100%;background-position: top;margin-top: 100px;}
+#AboutCourse{padding-top: 60px;}
+#AboutCourse h2{color: #000;font-weight: 700;margin-bottom: 30px;}
+#AboutCourse p{color:#6d7a83; font-size: 16px;}
+.red{background-color: #dc143c;padding: 15px;color: #fff;font-size: 18px;width: 150px;margin-right: 15px;margin-top: 15px;}
+#trainer{margin-top: 60px;}
+#trainer div > h3{margin-bottom: 30px;color: #fff;float: left;margin-top: -9px;}
+#trainer p{font-size: 14px;clear: left;}
+#aboutTrainer{background-color:#0d1d31;margin-top: 50px;padding-bottom: 50px;}
+#trainer h2{color: #fff;margin-bottom: 30px;font-weight: 700;}
+#trainer h3, #trainer p{color: #fff;}
+.testimonials > div {width: 100%;background-color: #eee;padding: 30px;border-radius: 6px;}
+svg{width: 30%;float: left;margin-top: -31px;margin-left: 50px;}
+#testimonials h2{color: #fff;font-weight: 700;margin-bottom: 30px;}
+#testimonials{ background-color: #0d1d31;
+    padding-bottom: 30px;
+    padding-top: 50px;}
+.testimonials h4{color: #dc143c;}
+.testimonials {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.testimonials p:nth-child(4){color: #dc143c;}
+#map{padding-top: 50px;}
+#contact div{float: left;height: 100px;text-align: center;width: 33%; color: #fff;padding: 10px;text-align: center;}
+#contact div .fa{color: #fff;margin-bottom: 10px;}
+#contact{margin-top: -99px;}
+#contact div:nth-child(1){background-color:#e0192c; }
+#contact div:nth-child(2){background-color:#e42342; }
+#contact div:nth-child(3){background-color:#e0192c; }
+#footer{background-color: #0d1d31;color: #fff;padding-bottom: 5px;padding-top: 16px;text-align: center;}
+
+#upcomingCourse, #keyFeatures{padding-top: 50px;padding-bottom: 30px;}
+#upcomingCourse h2, #keyFeatures h2{font-weight: 700;margin-bottom: 30px;}
+#keyFeatures{background-color: #eee;}
+.table, th{text-align: center;}
+thead {
+    background-color: #0d1d31;
+    color: #fff;
+}
+tbody tr td a:nth-child(1){color: #dc143c;}
+thead tr th .fa{color: #dc143c;font-size: 20px;}
+.features .fa{float:left; color: #dc143c;}
+.features{height: 132px;padding-right: 30px;}
+.features p{padding-left: 30px;}
+.features > h4 {margin-top: 3px;}
+
+#contact div a{color: #fff;}
+#contact div a:hover{color: #000;text-decoration: none;}
+
+
+/*********************************Large devices********************************/
+@media (min-width: 1200px){
+
+
+/*--------end---*/}/*----------Large devices Query Ends here----------------*/
+
+
+/*********************************Medium devices********************************/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+
+/*--------end---*/}/*----------Medium devices Query Ends here----------------*/
+
+/*********************************Small devices********************************/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.navbar-brand > img {
+    width: 75%;
+}
+#callbackForm strong {
+     font-size: 19px;
+}
+.form-control {
+    height: 30px;
+}
+.checkbox label {
+    margin-bottom: 5px;
+}
+.navbar-nav > li > a {
+    padding-top: 0;font-size: 13px;
+}
+
+#callbackForm {
+    margin-bottom: 20px;
+}
+.home div img {
+    float: right;
+    margin-top: 30%;
+    width: 54%;
+}
+
+.home h2, .home h4 {
+    background-color: rgba(13, 29, 49, 0.8);
+    color: #f6f7f8;
+    float: left;
+    margin-top: -10px;
+    padding: 15px;
+    width: 45%;
+}
+.home h2{font-size: 24px;}
+.home h4 {font-size: 16px;}
+.home div h1 {margin-top: 10%;width: 15%;}
+.testimonials > div{padding: 15px;}
+svg{width: 50%;float: left;margin-top: -26px;margin-left: 32px;}
+.navbar-nav {
+    float: right;
+    margin-top: -32px;
+}
+
+.navbar-nav > li {
+    float: right;
+    width: 65%;
+}
+/*--------end---*/}/*----------mall devices Query Ends here----------------*/
+
+
+/*********************************Extra small devices********************************/
+@media only screen and (min-width: 641px) and (max-width: 767px){
+
+
+/*--------end---*/}/*----------Extra small devices Query Ends here----------------*/
+
+
+@media only screen and (min-width: 300px) and (max-width: 640px){
+
+.navbar-brand > img {
+    width: 75%;
+}
+.navbar-nav{display: none;}
+.container{overflow: hidden;}
+nav .container{overflow: none;padding-bottom: 30px;}
+
+.home div h1{margin-top: 10%;font-size: 25px;}
+.home h2, .home h4{padding: 9px;}
+.home h2{ font-size: 18px;}
+.home h4{ font-size: 13px;}
+.home div img {
+    float: right;
+    margin-top: 19%;
+}
+#callbackForm{display: none;}
+#AboutCourse {
+    padding-top: 10px;
+}
+.table-responsive{padding-left: 0;}
+
+.features {
+    height: 130%;
+    padding-right: 30px;
+     padding-bottom: 15px;
+}
+#contact{padding-left: 20px;padding-right: 20px;margin-top: -4px;}
+#contact div{width: 100%;height: 54px;}
+#contact div .fa {
+    float: left;
+}
+iframe{height: 215px;}
+#trainer {
+    margin-top: 30px;
+}
+#upcomingCourse, #keyFeatures {
+    padding-top: 30px;
+}
+#testimonials {
+    padding-top: 30px;
+}
+.red {
+    margin-bottom: 15px;
+    padding: 9px;
+}
+#trainer p{margin-top: 15px;}
+/*--------end---*/}/*----------Query Ends here----------------*/
